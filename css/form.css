@@ -1,0 +1,44 @@
+#form br {
+	clear: both;
+}
+
+#form fieldset {
+
+border: 1px solid #CCCCCC;
+background: url(../imagens/fieldset1.jpg);
+font-family: Verdana;
+font-size: 12px;
+width: 150px;
+margin-bottom:10px;
+
+}
+
+#form input, textarea {
+
+font-family: Verdana;
+font-size: 12px;
+background: write;
+border: 2px solid #999999;
+float: left;
+text-align: left;
+
+}
+
+#form label {
+
+text-align: left;
+float: left;
+margin: 5px auto 5px auto;
+color: #666666;
+font-family: Verdana;
+font-size: 5px;
+
+}
+
+#form legend {
+
+color: #666666;
+font-variant: small-caps;
+font-weight: bold;
+
+}

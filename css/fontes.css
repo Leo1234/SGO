@@ -1,0 +1,133 @@
+p.rodape {
+	font-family: Verdana;
+	text-align: right;
+	color: #666666;
+	font-size: 11px;
+}
+p.destaque {
+	font-family: Verdana;
+	color: #666666;
+	font-size: 10px;
+	text-align: right;
+
+}
+p.texto {
+	font-family: Trebuchet MS;
+	text-align: center;
+	margin-top: 10px;
+	color: #666666;
+	font-size: 12px;
+	
+}
+p.corpo {
+	font-family: Trebuchet MS;
+	text-align: justify;
+	margin: 10px 10px auto 10px;
+	color: #333333;
+	font-size: 12px;
+	
+}
+p.titulo {
+	font-family: Verdana;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+	font-size: 12px;
+	
+}
+p.titulo_rel {
+	font-family: Verdana;
+	font-size: 20px;
+	color:#000;
+	text-align: center;
+	font-weight: bold;
+}
+p.subtitulo {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #666666;
+	text-align: center;
+	font-weight: bold;
+}
+p.conteudo_rel {
+	font-family: Verdana;
+	font-size: 15px;
+	color:#000;
+	text-align: left;
+}
+
+p.conteudo_rel2 {
+	font-family: Verdana;
+	font-size: 15px;
+	color:#000;
+	text-align: center;
+}
+
+p.conteudo_rel3 {
+	font-family: Verdana;
+	font-size: 10px;
+	color:#000;
+	text-align: left;
+}
+
+p.conteudo_rel4 {
+	font-family: Verdana;
+	font-size: 14px;
+	color:#000;
+	text-align: left;
+}
+
+#tabela {
+	text-align: center;
+	border: 1px solid black;
+	background-color: transparent;
+	font-family: Verdana;
+	font-size: 15px;	
+}
+#tabela td {
+	border: 1px solid black;	
+}
+
+p.saudacao {
+	
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	color: #366;
+	text-align:left;
+	
+	
+	}
+	
+p.sloga {
+	
+	font-family: Calibri;
+	font-size: 30px;
+	font-weight: bold;
+	color: #366;
+	text-align:left;
+	
+	
+	}
+	
+p.cabec {
+	
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+
+}
+	
+.one a {
+
+text-decoration: none;
+font-family: Verdana;
+font-size: 11px;
+color: blue;
+
+}
+.one a:hover {
+
+color: green;
+
+}

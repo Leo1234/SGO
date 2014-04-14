@@ -1,0 +1,92 @@
+br {
+	clear: both;
+}
+
+fieldset {
+
+border: 1px solid #CCCCCC;
+font-size: 12px;
+width: 98%;
+min-height:80px;
+margin-bottom:10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+
+}
+
+
+input{
+	height:20px;
+}
+
+label {
+
+text-align: left;
+float: left;
+margin: 5px auto 5px auto;
+color: #666666;
+font-family: Verdana;
+font-size: 11px;
+
+}
+
+legend {
+
+color: #333;
+font-variant: small-caps;
+font-weight: bold;
+font-size:15px;
+
+}
+#submit{
+color:#333;
+font-weight:bold;
+}
+
+#label{
+    color:#666;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	width:100px;
+}
+
+#div_logar{
+	width:40%;
+	height:170px;
+	margin:120px auto auto auto;
+	border: 4px outset #999999;
+	padding:10px;
+	background-color:#ddd;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#div_logar_img{
+	width:20%;
+	height:100%;
+	margin:auto;
+	float:left;
+}
+
+#div_logar_form{
+	width:60%;
+	height:100%;
+	margin:10px auto auto 30px;
+	float:left;
+}
+
+.button_cad{
+	
+}
+
+.button_reset{
+	
+}
+#tab a{
+	text-decoration:none;
+	color:#FFF;
+	background:#333;
+	padding:5px 10px;
+	font-size:13px;
+}
