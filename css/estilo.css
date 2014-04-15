@@ -1,0 +1,420 @@
+body {
+    background: url(../imagens/back2.png);
+    font: normal 12px Trebuchet MS;
+    margin:0px;
+    padding:0px;
+    height:100%;
+
+}
+
+#principal {
+
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+
+}
+
+#apresentacao{
+    background-image:url(../imagens/apresentacao.png);
+    background-repeat:no-repeat;
+    width:540px;
+    height:190px;
+    margin:0 auto;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    behavior:url(border-radius.htc);
+}
+
+#nomeuser{
+    font-size:30px;
+    color:#600;
+    padding:15px;
+    margin:0 auto;
+    text-align:center;
+}
+
+#topo {
+
+    width: 100%;
+    height: 70px;
+    background: url(../imagens/sgo_topo.png);
+    background-repeat:repeat-x;
+    padding-top:30px;
+
+}
+
+#rodape {
+    width: 100%;
+    margin-top: -20px; /* Este margin, tem que ser o mesmo valor da altura do rodapé, só que negativo */
+    bottom:0px;
+    width: 100%;
+    height: 30px;
+    background: url(../imagens/sgo_menu_hover.jpg);
+    background-repeat:repeat-x;
+    color:#FFFFFF;
+    text-align:center;
+    padding-top:5px;
+
+}
+
+#logo {
+
+    width: 90%;
+    height: 110px;
+    margin:-38px  auto auto 0px;
+    float:left;
+
+}
+
+#sloga {
+
+    width: 600px;
+    height: 110px;
+    float: left;
+    margin: 15px auto auto 20px;
+    background:url(../imagens/sloga.png);
+    background-repeat:no-repeat;
+
+}
+
+#sloga2 {
+
+    width: 400px;
+    height: 50px;
+    float: left;
+    text-align: left;
+    margin: 30px auto auto 20px;
+
+
+}
+
+#logo_rodape {
+
+    width: 46px;
+    height: 45px;
+    float: right;
+    margin: 13px 35px auto auto;
+
+}
+
+#rod{
+
+    width: 402px;
+    height: 30px;
+    float: right;
+    margin: 13px 10px auto auto;
+
+}
+
+#meio {
+
+    margin: 10px auto 10px auto;
+    float:left;
+    width: 772px;
+    background: white;
+    text-align: left;
+    border: 0px dashed #CCCCCC;
+
+}
+
+
+#menu2 {
+
+    width: 100%;
+    height: 30px;
+    background: url(../imagens/sgo_menu.jpg);
+    background-repeat:repeat-x;
+
+}
+
+#menu_interno {
+
+    width: 90%;
+    height: 28px;
+    margin:0 auto;
+    padding:2px;
+
+}
+
+
+.links{
+    text-decoration:none;
+    padding:22px;
+    color:#DEDEDE;
+    font-size:13px;
+    font-weight:bold;
+}
+
+.links:hover{
+    text-decoration:none;
+    padding-top:5px;
+    background: url(../imagens/sgo_menu_hover.jpg);
+    background-repeat:repeat-x;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    behavior:url(border-radius.htc);
+}
+
+#conteudo {
+    width: 90%;
+    height: 100%;
+    min-height:600px;
+    border-left: 1px dashed #BBB;
+    border-right: 1px dashed #BBB;
+    background-color:#F4F4F4;
+    text-align:left;
+    padding-top:30px;
+    margin:0 auto;
+
+
+}
+
+#alerta_sucesso{
+
+    height: 25px;
+    width: 98%;
+    padding: 5px;
+    border:solid 1px #ACC4BB;
+    background:#F1F5F4;
+    color:#51AE78;
+    font-size: 14px;
+    font-weight:bold;
+    text-align:center;
+    margin:5px auto 0px auto;
+
+}
+
+
+#alerta_erro{
+
+    height: 25px;
+    width: 90%;
+    padding-top: 5px;
+    border:solid 1px  #F00;
+    background:#FFDFDF;
+    margin-top: 5px;
+    margin-left:8px;
+    color:#F00;
+    font-size: 14px;
+    font-weight:bold;
+    text-align:center;
+
+}
+
+#alerta_erro2{
+
+    height: 70px;
+    width: 99%;
+    padding-top: 2px;
+    border:solid 1px  #F00;
+    background:#FFDFDF;
+    font-family: Verdana;
+    text-align:left;
+    margin-top: 5px;
+    margin-left:3px;
+    color:#F00;
+    font-size: 11px;
+
+}
+#data {
+
+    width: 100%;
+    margin: 5px auto 0 auto;
+    text-align: center;
+    border: dashed  0px #ACC4BB;
+    border-collapse: collapse;
+
+
+}
+
+#data th{
+    font-size: 12px;
+    font-weight: bold;
+    height:30px;
+    color: #333;
+    border-bottom: dashed  1px #eee;
+    padding:5px;
+}
+
+#data td{
+    font-size: 12px;
+    color: #000;
+    background-color:#eee;
+    border-bottom: dashed  1px #aaa;
+
+}
+
+.itens th{
+    height:15px;
+    font-weight:bold;
+    background-color:#FFFFFF;
+
+}
+
+
+
+#data2 {
+
+    width: 100%;
+    margin: 5px auto 0 auto;
+    text-align: center;
+    border: dashed  0px #ACC4BB;
+    border-collapse: collapse;
+
+
+}
+
+#data2 th{
+    font-size: 12px;
+    font-weight: bold;
+    height:40px;
+    color: #999;
+    border-bottom: dashed  1px #eee;
+    padding:5px;
+}
+
+#data2 td{
+    font-size: 12px;
+    font-weight:bold;
+    color: #222;
+    background-color:#ddd;
+    border-bottom: dashed  1px #eee;
+
+}
+
+
+#data2_print {
+
+    width: 100%;
+    margin: 5px auto 0 auto;
+    text-align: center;
+    border: solid  1px #333333;
+    border-collapse: collapse;
+
+
+}
+
+#data2_print th{
+    font-family: Verdana;
+    font-size: 12px;
+    background-color:#EEE;
+    font-weight: bold;
+    border: solid  1px #333333;
+    padding-left:5px;
+}
+
+#data2_print td{
+    font-family: Verdana;
+    font-size: 13px;
+    background: white;
+    border: solid  1px #333333;
+
+}
+
+#foto {
+
+    border-collapse: collapse;
+
+}
+
+#foto th {
+
+    font-family: Arial;
+    font-size: 10px;
+    background: #CCCCCC;
+    border: 1px solid #666666;
+    padding: 2px;
+    text-align: center;
+}
+
+#foto td {
+
+    font-family: Arial;
+    font-size: 10px;
+    background: white;
+    border: 0px solid #666666;
+    padding: 20px;
+    text-align: center;
+}
+
+#mudar {
+
+    background-color: black;
+
+}
+
+#dados{
+    float:right;
+    margin:-60px 70px auto auto;
+    width:450px;
+    height:25px;
+    color:#FFF;
+    text-align:right;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    position:relative;
+    float:right;
+}
+img{
+    border:0px;
+}
+
+#tab {
+    margin-top:15px;
+    margin-left:8px;
+    width: 70%;
+    float:left;
+    text-align: center;
+    border: dashed  0px #ACC4BB;
+    border-collapse: collapse;
+
+
+}
+
+#tab th{
+    font-size: 12px;
+    font-weight: bold;
+    height:20px;
+    color: #999;
+    border-bottom: outset  1px #ccc;
+    padding:5px;
+}
+
+#tab td{
+    padding-left:5px;
+    font-size: 12px;
+    font-weight:bold;
+    color: #888;
+    border-bottom: dashed  1px #ccc;
+
+}
+
+#t1{
+    border:1px solid #c00;
+}
+
+#t1 tr td{
+    border:0;
+}
+#t2{
+    border:1px solid #c00;;
+}
+#t2 tr td{
+    border:1px;
+}
+table tr td{
+    align:right;
+}
+
+#tblDroga{
+        border:1px solid #c00;;
+}
+#tblDroga tr td{
+    border:1px;
+}
+
+.zebraUm{background:#C4DCC4}
+.zebraDois{background:#EBF3EB}
+.selectedRow{background:#fff;cursor:pointer;}

@@ -1,0 +1,55 @@
+body { 
+
+
+border-bottom: none;
+cursor: pointer; 
+
+}
+
+#menu dl { 
+width: 160px;
+border: solid 1px #DAEABD;
+   
+}
+
+#menu dl,dd { 
+margin: 0;
+border-bottom: solid 1px #DAEABD;
+}
+
+#menu dt { 
+background: #FFFFFF;  
+padding: 8px; 
+margin: 0px; 
+border-bottom: solid 1px #DAEABD;  
+font: bold 120%/100% Verdana;
+color:#333333;
+font-size: 11px;
+
+}
+
+#menu dt a { 
+color: #336633;
+text-decoration: none; 
+
+}
+
+#menu dd a { 
+font: Verdana;
+font-size: 11px;
+text-decoration: none;
+color: #000; 
+border-bottom: solid 1px #DAEABD;  
+
+
+}
+
+#menu ul { 
+list-style: none; 
+margin: 0px;
+padding: 5px; 
+background: #DAEABD;
+}
+#menu ul a:hover {
+text-decoration: underline;
+}
